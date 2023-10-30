@@ -1,5 +1,15 @@
 # Introduction
 
+This is a Quarto book.
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+```{r}
+1 + 1
+```
+
+![Symbol](figures/cover.png)
+
 This is a book created from markdown and executable code.
 
 See @knuth84 for additional discussion of literate programming.
@@ -7,3 +17,5 @@ See @knuth84 for additional discussion of literate programming.
 ```{r}
 1 + 1
 ```
+
+

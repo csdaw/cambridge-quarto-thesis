@@ -5,11 +5,13 @@ book:
   title: "The Title of the Thesis"
   author: "Jane Doe"
   date: "30/10/2023"
+  abstract: "This is an abstract"
   chapters:
     - index.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
+  output-file: "JaneDoe_thesis"
 
 bibliography: references.bib
 
