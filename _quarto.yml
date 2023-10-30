@@ -20,3 +20,6 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt
+    template-partials: 
+      - partials/before-body.tex
+      - partials/toc.tex
