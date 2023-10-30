@@ -1,0 +1,10 @@
+# Declaration
+
+This is a declaration.
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+\let\mainmatter\mainmattertmp
+\mainmatter

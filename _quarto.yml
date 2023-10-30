@@ -5,9 +5,9 @@ book:
   title: "The Title of the Thesis"
   author: "Jane Doe"
   date: "30/10/2023"
-  abstract: "This is an abstract"
   chapters:
     - index.qmd
+    - declaration.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
@@ -19,7 +19,9 @@ format:
   html:
     theme: cosmo
   pdf:
-    documentclass: scrreprt
+    documentclass: scrbook
     template-partials: 
       - partials/before-body.tex
       - partials/toc.tex
+    toc: true
+    toc-title: "This might be the title of the TOC"
